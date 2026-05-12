@@ -4,4 +4,4 @@ pypdf
 pdfplumber
 pdf2image
 pillow
-poppler
+
