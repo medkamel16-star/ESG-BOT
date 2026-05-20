@@ -1,0 +1,44 @@
+# pipeline_config.yaml
+ingest:
+  contextual_prefixes: false
+  quality_filter_threshold: 0.05
+  vlm_figures: false
+  chunk_max_chars: 1200
+  chunk_overlap: 150
+  embed_model: "BAAI/bge-m3"
+
+retrieval:
+  use_dense: true
+  use_bm25: false
+  use_colbert: false
+  fusion: "rrf"
+  rrf_k: 60
+  dense_top_k: 30
+  sparse_top_k: 30
+  rerank_top_k: 8
+  use_reranker: false
+  use_router: false
+  use_self_correct: false
+
+agent:
+  mode: simple
+  chat_model: "mistralai/Ministral-3-8B-Instruct-2512"
+  strong_model: "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+  max_iterations: 4
+  tools:
+    retrieve: true
+    list_documents: true
+    read_table: true
+    compute: true
+    compare_documents: false
+    extract_kpis: false
+    fetch_regulation: false
+    web_search: false
+
+mcp:
+  enabled: false
+
+eval:
+  golden_set: "esg_rag/eval/golden_set.csv"
+  scoreboard: "esg_rag/eval/scoreboard.csv"
+  sample_size: 30

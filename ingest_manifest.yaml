@@ -1,0 +1,247 @@
+# ingest_manifest.yaml
+
+pdfs:
+
+  # ── 2022 ──────────────────────────────────────────────────────────────────
+  - path: data/pdfs/2022_AAPL.pdf
+    company: "Apple"
+    year: "2022"
+    report_type: sustainability
+
+  - path: data/pdfs/2022_MSFT.pdf
+    company: "Microsoft"
+    year: "2022"
+    report_type: sustainability
+
+  - path: data/pdfs/2022_NFLX.pdf
+    company: "Netflix"
+    year: "2022"
+    report_type: sustainability
+
+  - path: data/pdfs/2022_ORCL.pdf
+    company: "Oracle"
+    year: "2022"
+    report_type: sustainability
+
+  - path: data/pdfs/2022_PG.pdf
+    company: "Procter & Gamble"
+    year: "2022"
+    report_type: sustainability
+
+  # ── 2023 ──────────────────────────────────────────────────────────────────
+  - path: data/pdfs/2023_ABBV.pdf
+    company: "AbbVie"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_ABT.pdf
+    company: "Abbott Laboratories"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_ADBE.pdf
+    company: "Adobe"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_AMZN.pdf
+    company: "Amazon"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_BMY.pdf
+    company: "Bristol-Myers Squibb"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_COST.pdf
+    company: "Costco"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_CVX.pdf
+    company: "Chevron"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_GOOG.pdf
+    company: "Google"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_GOOGL.pdf
+    company: "Google"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_JNJ.pdf
+    company: "Johnson & Johnson"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_JPM.pdf
+    company: "JPMorgan Chase"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_KO.pdf
+    company: "Coca-Cola"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_LIN.pdf
+    company: "Linde"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_LLY.pdf
+    company: "Eli Lilly"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_MA.pdf
+    company: "Mastercard"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_MCD.pdf
+    company: "McDonald's"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_META.pdf
+    company: "Meta"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_MRK.pdf
+    company: "Merck"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_NKE.pdf
+    company: "Nike"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_PEP.pdf
+    company: "PepsiCo"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_PFE.pdf
+    company: "Pfizer"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_PM.pdf
+    company: "Philip Morris"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_RTX.pdf
+    company: "Raytheon Technologies"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_TMO.pdf
+    company: "Thermo Fisher Scientific"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_TXN.pdf
+    company: "Texas Instruments"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_UNH.pdf
+    company: "UnitedHealth"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_V.pdf
+    company: "Visa"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_VZ.pdf
+    company: "Verizon"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_WFC.pdf
+    company: "Wells Fargo"
+    year: "2023"
+    report_type: sustainability
+
+  - path: data/pdfs/2023_WMT.pdf
+    company: "Walmart"
+    year: "2023"
+    report_type: sustainability
+
+  # ── 2024 (already indexed — will be skipped) ──────────────────────────────
+
+  - path: data/pdfs/2024_NVDA.pdf
+    company: "NVIDIA"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_HD.pdf
+    company: "Home Depot"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_TSLA.pdf
+    company: "Tesla"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_XOM.pdf
+    company: "ExxonMobil"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_AMD.pdf
+    company: "AMD"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_AVGO.pdf
+    company: "Broadcom"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_BAC.pdf
+    company: "Bank of America"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_CMCSA.pdf
+    company: "Comcast"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_CRM.pdf
+    company: "Salesforce"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_CSCO.pdf
+    company: "Cisco"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_DHR.pdf
+    company: "Danaher"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_DIS.pdf
+    company: "Walt Disney"
+    year: "2024"
+    report_type: sustainability
+
+  - path: data/pdfs/2024_NEE.pdf
+    company: "NextEra Energy"
+    year: "2024"
+    report_type: sustainability
