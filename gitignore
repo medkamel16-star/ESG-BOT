@@ -1,0 +1,27 @@
+# Data — never push PDFs or vector DB
+data/pdfs/
+data/.qdrant/
+data/parsed_cache/
+data/figures/
+data/albert_costs.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Models
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# Jupyter / Spyder
+.ipynb_checkpoints/
+*.spyproject
+
+# OS
+.DS_Store
+Thumbs.db
